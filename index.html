@@ -4,13 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>
+        TIC-TAC-TOE</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
 </head>
 <body>
     
+    <div class="container">
+        
 
+        
+            <div id="grid" class="grid">
+                <div class="firstPlayer">
+                    <p>What your name?</p>
+                    <input id = "input-first" type="text" value = "Player 1">
+                    <img class="cross" src="cross.png" alt="">
+                </div>
+                <div class="secondPlayer">
+                    <p>What your name?</p>
+                    <input id = "input-second" type="text" value = "Player 2">
+                    <img class="lifebuoy" src="lifebuoy.png" alt="">
 
-    <script src="script.js"></script>
+                </div>
+                <div class="message">Why win?</div>
+                <div title="0" id="block" class= "block one"> </div>
+                <div title="1" id="block" class= "block second"> </div>
+                <div title="2" id="block" class= "block therd"> </div>
+                <div title="3" id="block" class= "block four"> </div>
+                <div title="4" id="block" class= "block five"> </div>
+                <div title="5" id="block" class= "block six"> </div>
+                <div title="6" id="block" class= "block seven"> </div>
+                <div title="7" id="block" class= "block eight"> </div>
+                <div title="8" id="block" class= "block nine"></div>
+                <button class="btnReset">RESET</button>
+
+            </div>
+        
+    </div>
+    
+    <script src="js.js"></script>
 </body>
 </html>
