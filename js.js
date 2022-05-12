@@ -6,14 +6,14 @@ const img = () =>{
         
         let lifebuoy = document.createElement('img');
         lifebuoy.className = "imgLifebuoy"
-        lifebuoy.src = "/lifebuoy.png"
+        lifebuoy.src = "img/lifebuoy.png"
         return lifebuoy
        
     
 }else{
         let imgCross = document.createElement('img');
         imgCross.className = "imgCross"
-        imgCross.src = "/cross.png"
+        imgCross.src = "img/cross.png"
         return imgCross
 
     }
